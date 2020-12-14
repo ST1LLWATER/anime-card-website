@@ -30,5 +30,5 @@ ReactDom.render(
     </h1>
     {Sdata.map(acard)}
   </>,
-  document.querySelector("#root")
+  document.getElementById("root")
 );
